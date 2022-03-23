@@ -1,6 +1,45 @@
 // $h1-font-size: 1rem;  // change text font
 @import "bootstrap";
 
-// .navbar {                                  //change navbar color
-//   background-color: #FDF6EA !important;
-// }
+ .navbar {                                  //change navbar color
+   background-color: black !important;
+ }
+
+ .nav-link{
+   color: white !important;
+ }
+
+ #logo{
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+ }
+
+ #home-container {
+  margin-top: 25px;
+}
+
+.jumbotron {
+  background-image: asset-url('typin.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
